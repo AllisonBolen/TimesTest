@@ -7,7 +7,6 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello, playground")
   word := longest("this is a test for NYT")
   fmt.Println("This is the longest word in the string: '" + word +"'")
 }
